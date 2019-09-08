@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 
 import com.leafBot.pages.LoginPage;
 import com.leafBot.selenium.api.base.SeleniumBase;
-
-public class TC002_CreateLead extends SeleniumBase{
+import com.leafBot.testng.api.base.ProjectSpecificMethods;
+public class TC002_CreateLead extends ProjectSpecificMethods{
 	@BeforeTest
 	public void setData() {
 		excelFileName="CreateLead";
